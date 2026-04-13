@@ -1,0 +1,119 @@
+# Build artifacts
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.out
+*.d
+*.a
+*.so
+*.dylib
+build/
+dist/
+Debug/
+Release/
+
+# STM32 specific
+teamproject.elf
+teamproject.bin
+teamproject.map
+__dump*.txt
+*.lst
+*.sym
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+.venv
+
+# Server/YOLO models
+server/best.pt
+server/captures/
+server/results/
+server/*.jpg
+server/*.png
+server/*.mp4
+
+# ESP/Arduino
+esp/build/
+esp/.pio/
+.pio/
+.piolibdeps
+.piodebugging/
+esp/libraries/
+
+# STM32/ARM
+*.elf
+*.axf
+stm32/build/
+stm32/Debug/
+stm32/.cproject
+stm32/.project
+stm32/.settings/
+stm32/**/Debug/**
+stm32/**/Release/**
+
+# Generated files
+*.log
+*.out
+.clang-format
+.clang_complete
+
+# OS specific
+*.exe
+*.dll
+.classpath
+.gradle
+local.properties
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# Hardware-related
+*.lst
+*.sym
+
+# Misc
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
