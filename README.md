@@ -1,4 +1,4 @@
-# Cortex Project
+# Safe Office
 
 [프로젝트에 대한 한 줄 설명을 여기에 작성하세요.]
 
@@ -29,7 +29,7 @@ Cortex-project/
 ### Hardware
 - STM32F411xE (Cortex-M4)
 - ESP8266 WiFi Module
-- [기타 하드웨어 명시]
+- 라즈베리파이5
 
 ### Software
 - **ESP**: Arduino IDE with ESP8266 Board Package
@@ -115,11 +115,7 @@ MODEL_PATH = "best.pt"  # YOLOv8 가중치 파일
 
 이 프로젝트는 [MIT License](LICENSE) 하에 배포됩니다.
 
-## 👥 기여
 
-풀 리퀘스트는 언제나 환영합니다!
-
-## 📧 문의
 
 [이메일 또는 연락처]
 
