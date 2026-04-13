@@ -1,10 +1,31 @@
-# Safe Office - IoT 기반 사무실 안전 관리 시스템
+# Safe Office
 
 ESP8266, STM32F4, 그리고 YOLOv8 객체 감지를 활용한 자동화된 사무실 환경 모니터링 및 제어 시스템입니다.
 
 ## 📋 개요
 
-YOLO 기반의 실시간 객체 감지로 인가된 사용자 인식, STM32 미니컨트롤러를 통해 센서, 모터, LED 등을 자동으로 제어합니다. ESP8266은 WiFi 통신을 담당합니다.
+YOLO 기반의 실시간 객체 감지로 인가된 사용자 인식, STM32를 통해 센서, 모터, LED 등을 자동으로 제어합니다. ESP8266은 WiFi 통신을 담당합니다.
+
+---
+
+## 프로젝트 정보
+
+- **프로젝트 기간:** 2026.04.03 ~ 2026.04.13
+- **프로젝트 목표:** IoT 기반 사무실 안전 관리 시스템 구현
+
+---
+
+## 시스템 구성도
+
+![System Architecture](./docs/images/system.png)
+
+
+
+---
+
+## 파이프라인
+
+---
 
 ## 🏗️ 프로젝트 구조
 
@@ -29,6 +50,8 @@ Safe_Office/
 └── README.md
 ```
 
+---
+
 ## ⚙️ 시스템 요구사항
 
 ### Hardware
@@ -40,6 +63,8 @@ Safe_Office/
 - **ESP**: Arduino IDE with ESP8266 Board Package
 - **Server**: Python 3.8+, Flask, OpenCV, YOLOv8
 - **STM32**: ARM GCC, Makefile, ST-Link
+
+---
 
 ## 🚀 설치 및 실행
 
@@ -71,6 +96,8 @@ Server는 `http://0.0.0.0:5000` 에서 실행됩니다.
 2. WiFi SSID, Password, Server URL 설정
 3. Board: ESP8266, Port 선택 후 업로드
 
+---
+
 ## 📱 주요 기능
 
 - **자동 감지**: YOLO 기반 실시간 객체 감지
@@ -81,20 +108,22 @@ Server는 `http://0.0.0.0:5000` 에서 실행됩니다.
   - 화염 감지
   - LED 상태 표시
 
+---
+
 ## 📡 통신 프로토콜
 
 ### STM32 → ESP8266
 ```
-HELLO    → 응답 대기
-CAPTURE  → 카메라 신호 요청
+HELLO or CAPTURE → 카메라 신호 요청
 ```
 
 ### ESP8266 → Server
-```YOLOv8 모델 훈련
+YOLOv8 모델 훈련
 
 `training/yolo_train.py`에서 커스텀 YOLO 모델을 훈련할 수 있습니다.
 
-```bash
+```
+bash
 cd training
 python yolo_train.py
 ```
@@ -110,6 +139,8 @@ python yolo_train.py
 **출력:**
 - 훈련된 모델: `runs/detect/train/weights/best.pt`
 - 검증 메트릭: Precision, Recall, mAP50, mAP50-95
+
+---
 
 ## 🔧 주요 설정값
 
@@ -131,6 +162,8 @@ const char* serverUrl = "http://SERVER_IP:5000/capture";
 ```python
 MODEL_PATH = "best.pt"  # YOLOv8 가중치 파일
 ```
+
+---
 
 ## 팀원 소개
 
