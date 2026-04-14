@@ -1,4 +1,4 @@
-# Safe Office
+# 🛡️🏢 Safe Office
 
 ESP8266, STM32F4, 그리고 YOLOv8 객체 감지를 활용한 자동화된 사무실 환경 모니터링 및 제어 시스템입니다.
 
@@ -32,7 +32,7 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ---
 
-## 프로젝트 정보
+## 📝 프로젝트 정보
 
 - **프로젝트 기간:** 2026.04.03 ~ 2026.04.13
 - **프로젝트 목표:** IoT 기반 사무실 안전 관리 시스템 구현
@@ -46,7 +46,7 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ---
 
-## 회로도
+## 🔌 회로도
 
 ![System Architecture](./docs/images/system.png)
 
@@ -54,7 +54,7 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ---
 
-## 플로우차트
+## 🔄 플로우차트
 
 ![System Architecture](./docs/images/flow1.png)
 
@@ -184,7 +184,7 @@ MODEL_PATH = "best.pt"  # YOLOv8 가중치 파일
 
 ---
 
-## 프로토타입 및 시연 영상
+## 🎬 프로토타입 및 시연 영상
 
 https://youtu.be/J2NhM7mqCp0
 
@@ -192,7 +192,7 @@ https://youtu.be/J2NhM7mqCp0
 
 ---
 
-## 팀원 소개
+## 👥 팀원 소개
 
 <table>
   <tr>
