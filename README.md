@@ -48,7 +48,6 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ##  📷  프로토타입 사진
 
-![실물사진](docs/images/prototype.png)
 <div>
  <img src="docs/images/prototype.png" width="580" height="500" align="top">
  <img src="docs/images/추론.png" width="250" height="340" align="top">
