@@ -20,6 +20,7 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 ![System Architecture](./docs/images/system.png)
 
 
+
 ---
 
 ## 플로우차트
