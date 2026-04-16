@@ -66,7 +66,7 @@ YOLO 기반의 실시간 객체 감지로 인가된 사용자를 인식하고, S
 
 ## 🔧 하드웨어 핀맵
 시스템에 사용된 센서, 모터, LED 및 통신 핀의 GPIO 매핑 정보이다.
-![map](./docs/images/매핑.png)
+![map](./docs/images/매핑.PNG)
 
 
 
