@@ -217,8 +217,8 @@ https://youtu.be/J2NhM7mqCp0
 ![트러블슈팅](docs/images/trouble1.png)
 
 
-- **문제:** ESP32 <-> STM32 간 UART 통신 시 전송 오류 문제  
-- **해결:** ESP32의 UOT, UOR 대신 새로운 GPIO 할당 
+- **문제:** ESP8266 <-> STM32 간 UART 통신 시 전송 오류 문제  
+- **해결:** ESP8266의 UOT, UOR 대신 새로운 GPIO 할당 
 
 ### 📉 비정상 센서 값 출력
 
